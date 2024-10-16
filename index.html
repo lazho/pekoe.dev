@@ -6,8 +6,13 @@
     <link rel="icon" href="https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/fwoppy.ico?v=1699066851425" />
 
     <title>Kai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <style>
       :root {
+        --light-purple: #cab6cd;
+        --light-2-colour: #eff2c0;
         --white: #E3D8DD;
         --pink: #F8DFE6;
         --red: #DD2D55;
@@ -18,7 +23,7 @@
       body {
         background-color: var(--white);
         color: var(--black);
-        font-family: monospace;
+        font-family: Inter;
         font-size: 0.9rem;
         max-width: 72ch;
         padding-left: 2ch;
@@ -51,7 +56,7 @@
       <a href="https://linkedin.ca/lzh">LinkedIn</a>
       <h2>Bio</h2>
       <p>
-        I am a developer with experience designing, building, and breaking into APIs/web services.
+        I am a developer with experience designing, building, and generally poking around APIs/web services.
         My interests mostly include games and interactive media.
         As of time of writing, I work for Behaviour Interactive on the multiplayer title <em>Dead by Daylight</em>.
       </p>
@@ -61,18 +66,23 @@
       <ul>
         <li>
           <h3>
-            Behaviour Interactive - Programmer
+            Behaviour Interactive - Backend Programmer
           </h3>
           <p>
             2021 Jun - Present
           </p>
           <p>
-            Development and support for the backend behind <em>Dead by Daylight</em>,
-            which enables the live service components of the game,
-            such as authentication, matchmaking, store/inventory, and player data management.
+            Development of the backend service of <em>Dead by Daylight</em>, a live service multiplayer game with 3M MAU.
+            The backend enables the live service components of the game,
+            with features as authentication, rich presence, matchmaking, store/inventory, and player data management.
           </p>
           <p>
-            Stack: Node.js, DynamoDB, ElasticSearch, Unreal Engine 4.
+            Recently, I lead the design and implementation of cross-platform DLC sharing,
+            which allows players who own the game on multiple platforms to keep their purchases
+            and play them on any platform that is supported. During release we saw an immediate doubling of CCU.
+          </p>
+          <p>
+            Stack: Node.js, TypeScript, DynamoDB, ElasticSearch, Unreal Engine 5.
           </p>
         </li>
         <li>
