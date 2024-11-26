@@ -12,6 +12,7 @@
     <meta property="og:description" content="Kai's homepage">
     <meta property="og:image" content="https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/fwoppy.png?v=1732591061294">
     <meta name="twitter:card" content="summary">
+    <meta name="theme-color" content="#282132">
     <title>Kai</title>
     <link rel="preload" href="https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/Inter.woff2?v=1732646609245" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/Inter_Italic.woff2?v=1732646613567" as="font" type="font/woff2" crossorigin>
@@ -27,12 +28,13 @@
       }
       
       html {        
-        background: linear-gradient(
+        background: var(--dusk);
+        background-image: linear-gradient(
           180deg,
           var(--black) 45%,
           var(--dusk)
         );
-        min-height: 100%;
+        min-height: 100vh;
       }
 
       @font-face {
