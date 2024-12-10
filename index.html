@@ -62,6 +62,10 @@
         unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
       }
       
+      ::selection{
+        background-color: var(--red);
+      }
+      
       body {
         color: var(--pink);
         font-family: "Inter", sans-serif;
@@ -207,51 +211,51 @@
   </body>
   <style>
     :root {    
-      --sword: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword.gif?v=1733846218375");
-      --sword1: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword1.gif?v=1733846218528");
-      --sword2: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
-      --sword3: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword3.gif?v=1733846219001");
-      --sword4: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword4.gif?v=1733846219132");
-      --sword5: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword5.gif?v=1733846219270");
-      --sword6: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword6.gif?v=1733846219426");
-      --sword7: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword7.gif?v=1733846219556");
-      --sword8: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword8.gif?v=1733846219765");
-      --sword9: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword9.gif?v=1733846219952");
-      --sword10: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword10.gif?v=1733846220115");
+      --sword: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword0.gif");
+      --sword1: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword1.gif");
+      --sword2: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif");
+      --sword3: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword3.gif");
+      --sword4: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword4.gif");
+      --sword5: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword5.gif");
+      --sword6: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword6.gif");
+      --sword7: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword7.gif");
+      --sword8: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword8.gif");
+      --sword9: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword9.gif");
+      --sword10: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword10.gif");
     }
 
     .sword {
-      cursor: var(--sword) 0 62, auto;
+      cursor: var(--sword) 0 31, auto;
       -webkit-animation: cursor 1100ms infinite;
       animation: cursor 1100ms infinite;
     }
 
     @-webkit-keyframes cursor {
-      0% {cursor: var(--sword) 0 62, auto;}
-      9% {cursor: var(--sword1) 0 62, auto;}
-      18% {cursor: var(--sword2) 0 62, auto;}
-      27% {cursor: var(--sword3) 0 62, auto;}
-      36% {cursor: var(--sword4) 0 62, auto;}
-      45% {cursor: var(--sword5) 0 62, auto;}
-      54% {cursor: var(--sword6) 0 62, auto;}
-      63% {cursor: var(--sword7) 0 62, auto;}
-      72% {cursor: var(--sword8) 0 62, auto;}
-      81% {cursor: var(--sword9) 0 62, auto;}
-      90% {cursor: var(--sword10) 0 62, auto;}
+      0% {cursor: var(--sword) 0 31, auto;}
+      9% {cursor: var(--sword1) 0 31, auto;}
+      18% {cursor: var(--sword2) 0 31, auto;}
+      27% {cursor: var(--sword3) 0 31, auto;}
+      36% {cursor: var(--sword4) 0 31, auto;}
+      45% {cursor: var(--sword5) 0 31, auto;}
+      54% {cursor: var(--sword6) 0 31, auto;}
+      63% {cursor: var(--sword7) 0 31, auto;}
+      72% {cursor: var(--sword8) 0 31, auto;}
+      81% {cursor: var(--sword9) 0 31, auto;}
+      90% {cursor: var(--sword10) 0 31, auto;}
     } 
 
     @keyframes cursor {
-      0% {cursor: var(--sword) 0 62, auto;}
-      9% {cursor: var(--sword1) 0 62, auto;}
-      18% {cursor: var(--sword2) 0 62, auto;}
-      27% {cursor: var(--sword3) 0 62, auto;}
-      36% {cursor: var(--sword4) 0 62, auto;}
-      45% {cursor: var(--sword5) 0 62, auto;}
-      54% {cursor: var(--sword6) 0 62, auto;}
-      63% {cursor: var(--sword7) 0 62, auto;}
-      72% {cursor: var(--sword8) 0 62, auto;}
-      81% {cursor: var(--sword9) 0 62, auto;}
-      90% {cursor: var(--sword10) 0 62, auto;}
+      0% {cursor: var(--sword) 0 31, auto;}
+      9% {cursor: var(--sword1) 0 31, auto;}
+      18% {cursor: var(--sword2) 0 31, auto;}
+      27% {cursor: var(--sword3) 0 31, auto;}
+      36% {cursor: var(--sword4) 0 31, auto;}
+      45% {cursor: var(--sword5) 0 31, auto;}
+      54% {cursor: var(--sword6) 0 31, auto;}
+      63% {cursor: var(--sword7) 0 31, auto;}
+      72% {cursor: var(--sword8) 0 31, auto;}
+      81% {cursor: var(--sword9) 0 31, auto;}
+      90% {cursor: var(--sword10) 0 31, auto;}
     }
   </style>
   <script>
