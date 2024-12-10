@@ -28,14 +28,14 @@
         --sword: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword.gif?v=1733846218375");
         --sword1: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword1.gif?v=1733846218528");
         --sword2: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
-        --sword3: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
-        --sword4: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
-        --sword5: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
-        --sword6: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
-        --sword2: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
-        --sword2: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
-        --sword2: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
-        --sword2: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword2.gif?v=1733846218821");
+        --sword3: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword3.gif?v=1733846219001");
+        --sword4: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword4.gif?v=1733846219132");
+        --sword5: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword5.gif?v=1733846219270");
+        --sword6: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword6.gif?v=1733846219426");
+        --sword7: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword7.gif?v=1733846219556");
+        --sword8: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword8.gif?v=1733846219765");
+        --sword9: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword9.gif?v=1733846219952");
+        --sword10: url("https://cdn.glitch.global/9d767988-6778-400c-a09e-2908db62756a/sword10.gif?v=1733846220115");
       }
       
       html {        
@@ -216,4 +216,46 @@
       </ul>
     </main>
   </body>
+  <style>
+    .sword {
+      cursor: var(--sword) 0 62, auto;
+      -webkit-animation: cursor 1100ms infinite;
+      animation: cursor 1100ms infinite;
+    }
+
+    @-webkit-keyframes cursor {
+      0% {cursor: var(--sword) 0 62, auto;}
+      9% {cursor: var(--sword1) 0 62, auto;}
+      18% {cursor: var(--sword2) 0 62, auto;}
+      27% {cursor: var(--sword3) 0 62, auto;}
+      36% {cursor: var(--sword4) 0 62, auto;}
+      45% {cursor: var(--sword5) 0 62, auto;}
+      54% {cursor: var(--sword6) 0 62, auto;}
+      63% {cursor: var(--sword7) 0 62, auto;}
+      72% {cursor: var(--sword8) 0 62, auto;}
+      81% {cursor: var(--sword9) 0 62, auto;}
+      90% {cursor: var(--sword10) 0 62, auto;}
+    } 
+
+    @keyframes cursor {
+      0% {cursor: var(--sword) 0 62, auto;}
+      9% {cursor: var(--sword1) 0 62, auto;}
+      18% {cursor: var(--sword2) 0 62, auto;}
+      27% {cursor: var(--sword3) 0 62, auto;}
+      36% {cursor: var(--sword4) 0 62, auto;}
+      45% {cursor: var(--sword5) 0 62, auto;}
+      54% {cursor: var(--sword6) 0 62, auto;}
+      63% {cursor: var(--sword7) 0 62, auto;}
+      72% {cursor: var(--sword8) 0 62, auto;}
+      81% {cursor: var(--sword9) 0 62, auto;}
+      90% {cursor: var(--sword10) 0 62, auto;}
+    }
+  </style>
+  <script>
+    (function() {
+      document.addEventListener('keydown', function (e) {
+        
+      })
+    })();
+  </script>
 </html>
