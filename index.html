@@ -254,7 +254,9 @@
   <script>
     (function() {
       document.addEventListener('keydown', function (e) {
-        
+        if (e.key === '`') {
+          document.documentElement.classList.toggle('sword');
+        }
       })
     })();
   </script>
